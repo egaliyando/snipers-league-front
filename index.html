@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Snipper</title>
+    <!-- W3 -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .mySlides {
+            display: none;
+        }
+    </style>
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Monda&display=swap" rel="stylesheet" />
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <!-- BULMA -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
+    <!-- MYSTYLE -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://bulma.io">
+                <img src="logo3.png" width="90" height="28" />
+            </a>
+
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item">
+                    Home
+                </a>
+
+                <a class="navbar-item">
+                    Event
+                </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Product
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Jersey
+                        </a>
+                        <a class="navbar-item">
+                            Sepatu
+                        </a>
+                        <a class="navbar-item">
+                            Basket
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button red">
+                            <strong>Sign up</strong>
+                        </a>
+                        <a class="button is-light">
+                            Log in
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR -->
+
+    <!-- SLIDER -->
+    <!-- <div class="w3-content ">
+        <img class="mySlides" src="bg.jpg" style="width:100%">
+        <img class="mySlides" src="bg.jpg" style="width:100%">
+      
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div> -->
+    <!-- CONTENT -->
+    <div class="tile is-parent" style="margin-top: 50px;">
+        <article class="tile is-child notification is-danger">
+            <p class="title">Space Banner</p>
+            <p class="subtitle">Banner Event</p>
+            <div class="content">
+                <!-- Content -->
+            </div>
+        </article>
+    </div>
+    <div class="container" >
+        <div class="notification">
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-8">
+                    <div class="tile">
+                        <div class="tile is-parent is-vertical">
+                            <article class="tile is-child notification">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <figure class="image is-4by3">
+                                            <img src="https://bulma.io/images/placeholders/1280x960.png"
+                                                alt="Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <figure class="image is-48x48">
+                                                    <img src="https://bulma.io/images/placeholders/96x96.png"
+                                                        alt="Placeholder image">
+                                                </figure>
+                                            </div>
+                                            <div class="media-content">
+                                                <p class="title is-4">John Smith</p>
+                                                <p class="subtitle is-6">@johnsmith</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="content">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                                            <a href="#">#css</a> <a href="#">#responsive</a>
+                                            <br>
+                                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                       
+                        <div class="tile is-parent">
+                            <article class="tile is-child notification">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <figure class="image is-4by3">
+                                            <img src="https://bulma.io/images/placeholders/1280x960.png"
+                                                alt="Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <figure class="image is-48x48">
+                                                    <img src="https://bulma.io/images/placeholders/96x96.png"
+                                                        alt="Placeholder image">
+                                                </figure>
+                                            </div>
+                                            <div class="media-content">
+                                                <p class="title is-4">John Smith</p>
+                                                <p class="subtitle is-6">@johnsmith</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="content">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                                            <a href="#">#css</a> <a href="#">#responsive</a>
+                                            <br>
+                                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile is-parent">
+                    <article class="tile is-child notification ">
+                        <div class="content">
+                            <nav class="panel">
+                                <p class="panel-heading">
+                                    Product
+                                </p>
+                                <div class="panel-block">
+                                    <p class="control has-icons-left">
+                                        <input class="input" type="text" placeholder="Search">
+                                        <span class="icon is-left">
+                                            <i class="fas fa-search" aria-hidden="true"></i>
+                                        </span>
+                                    </p>
+                                </div>
+                                <p class="panel-tabs">
+                                    <a class="is-active">All</a>
+                                    <a>Sepatu</a>
+                                    <a>Bola</a>
+                                    <a>Jersey</a>
+                                </p>
+                                <a class="panel-block">
+                                    <span class="panel-icon">
+                                        <i class="fas fa-store" aria-hidden="true"></i>
+                                    </span>
+                                    Nike
+                                </a>
+                                <a class="panel-block">
+                                    <span class="panel-icon">
+                                        <i class="fas fa-store" aria-hidden="true"></i>
+                                    </span>
+                                    Ardiles
+                                </a>
+
+                            </nav>
+                        </div>
+                </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <!-- CONTENT -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code
+                is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website
+                content is licensed
+                <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+            </p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT SLIDER -->
+    <!-- <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script> -->
+
+    <!-- SCRIPT NAV -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(
+                document.querySelectorAll(".navbar-burger"),
+                0
+            );
+
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+                // Add a click event on each of them
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener("click", () => {
+                        // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle("is-active");
+                        $target.classList.toggle("is-active");
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
